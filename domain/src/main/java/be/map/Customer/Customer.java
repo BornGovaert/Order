@@ -18,6 +18,8 @@ public class Customer {
         this.uniqueID = CustomerBuilder.buildUser().getUniqueId();
     }
 
+    public Customer(){}
+
 
     public String getFirstName() {
         return firstName;
